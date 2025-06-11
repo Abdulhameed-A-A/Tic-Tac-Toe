@@ -1,0 +1,36 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: beige;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+  font-size: 24px;
+}
+
+.tic_tac_toe {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 2px;
+  background-color: brown;
+  height: 300px;
+  width: 300px;
+}
+
+.cell {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
